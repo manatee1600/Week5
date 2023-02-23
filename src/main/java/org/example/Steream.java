@@ -1,7 +1,7 @@
 package org.example;
 
 import java.util.List;
-public class Steream {
+public class Stream {
 
     public static void main(String[] args) {
         List<String> names = List.of("yamada", "tanaka", "yasuda", "suzuki", "iida");
