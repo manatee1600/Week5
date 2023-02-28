@@ -4,7 +4,7 @@ import java.util.List;
 public class Stream {
 
     public static void main(String[] args) {
-        List<String> names = List.of("yamada", "tanaka", "yasuda", "suzuki", "iida");
+        List<String> names = List.of("yamada", "tanaka", "yasuda", "suzuki", "iida","yoshikawa");
         List<String> sortedResult = names.stream().sorted().toList();
 
         long count = names.stream().filter(v -> v.startsWith("y")).count();
